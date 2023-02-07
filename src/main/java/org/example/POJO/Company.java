@@ -1,4 +1,4 @@
-package org.example.JsonObject;
+package org.example.POJO;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,14 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class JsonObject{
-	private int yoshi;
+public class Company{
+	private String bs;
+	private String catchPhrase;
 	private String name;
-	private boolean truee;
-	private Manzil manzil;
-
-
-
-
 
 }

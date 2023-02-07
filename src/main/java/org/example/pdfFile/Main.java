@@ -30,6 +30,7 @@ public class Main {
             BufferedReader reader = new BufferedReader(new FileReader(sours));
             Album[] albums = gson.fromJson(reader,Album[].class);
 
+
             // for bn aylanib jadval ichiga tashlaymiz
             // Creating a table
             float [] pointColumnWidths = {30F, 30, 300F};

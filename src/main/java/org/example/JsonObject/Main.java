@@ -13,7 +13,7 @@ public class Main {
         File file = new File("src/main/resources/jsonObject.json");
         try (BufferedReader reader = new BufferedReader(new FileReader(file))){
 
-                JsonObject jsonObject = gson.fromJson(reader,JsonObject.class);
+            JsonObject jsonObject = gson.fromJson(reader,JsonObject.class);
             System.out.println(jsonObject);
 
         } catch (FileNotFoundException e) {
